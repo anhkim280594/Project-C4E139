@@ -70,7 +70,7 @@ function renderCart() {
             <div class="cart-reserve col-10" style="border: 1px solid #333; border-radius: 8px; margin: 5px auto;">
               <div class="product-bottom">
                   <h3>${dataItem[item].name}</h3>
-                  <span>${dataItem[item].unit_price}</span>
+                  <span>Giá: ${dataItem[item].unit_price} VND</span>
               </div>
             </div>
             `
