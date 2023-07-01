@@ -23,12 +23,21 @@
 <body class=" template-index">
     <div class="wrapper-container">
         <header id="header" role="banner">
-            <div class="header-panel ">
+            <div class="header-panel">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <ul class="customer-links">
-                                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Giỏ hàng </a>
+                                <li><a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Giỏ hàng
+                                  </a>
+                                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Giỏ hàng</h5>
+                                    </div>
+                                    <div id="list-item-reserve">
+                                    </div>
+                                  </div>
                                 </li>
                             </ul>
                         </div>
@@ -245,7 +254,7 @@
         <div class="row">
             <div class="text-center feedback-customer">
                 <div class="col mb-3">
-                    <h2>Ý kiến khách hàng</h2>
+                    <h2 class="text-secondary">Ý kiến khách hàng</h2>
                     <p class="lead text-secondary">Hãy để lại suy nghĩ của bạn để góp phần giúp chúng tôi phát triển hơn</p>
                   </div>
             </div>
